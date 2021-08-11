@@ -649,7 +649,19 @@ section {
 }
 
 #book {
-  background-image: url("/assets/img/lucifer/.jpg");
+  background-image: url("/assets/img/lucifer/book.jpg");
+  background-size: 100%;
+
+}
+
+#capa {
+  background-image: url("/assets/img/lucifer/capa.jpg");
+  background-size: 100%;
+
+}
+
+#movie {
+  background-image: url("/assets/img/lucifer/movie.jpg");
   background-size: 100%;
 
 }
