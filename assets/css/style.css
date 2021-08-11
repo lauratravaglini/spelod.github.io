@@ -666,13 +666,38 @@ section {
 
 }
 
+#photo {
+  background-image: url("/assets/img/lucifer/movie.jpg");
+  background-size: 100%;
+
+}
+
+#doc {
+  background-image: url("/assets/img/lucifer/rules.jpg");
+  background-size: 100%;
+
+}
+
+#movie {
+  background-image: url("/assets/img/lucifer/movie.jpg");
+  background-size: 100%;
+
+}
+
 #escher {
   background-image: url("/assets/img/lucifer/escher.jpg");
   background-size: 100%;
 
 }
 
-#movie {
+
+#audio {
+  background-image: url("/assets/img/lucifer/movie.jpg");
+  background-size: 100%;
+
+}
+
+#milgram {
   background-image: url("/assets/img/lucifer/movie.jpg");
   background-size: 100%;
 
