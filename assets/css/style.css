@@ -654,7 +654,7 @@ section {
 }
 
 #digitalart {
-  background-image: url(assets/img/luficer/thelucifereffect.jpeg);
+  background-image: url("assets/img/luficer/thelucifereffect.jpeg");
 
 }
 
