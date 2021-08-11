@@ -649,7 +649,8 @@ section {
 }
 
 #book {
-  background-image: url();
+  background-image: url("/assets/img/lucifer/.jpg");
+  background-size: 100%;
 
 }
 
