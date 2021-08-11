@@ -732,6 +732,7 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
+  background-color: #fff;
 }
 
 .services .icon-box h4 a {
@@ -747,6 +748,7 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+  background-color: #fff;
 }
 
 .services .icon-box:hover {
