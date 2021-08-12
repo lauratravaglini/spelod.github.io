@@ -728,6 +728,14 @@ section {
   transition: ease-in-out 0.3s;
 }
 
+.services .box-text {
+  background-color: #fff;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
 .services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
