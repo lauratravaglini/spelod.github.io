@@ -918,7 +918,7 @@
             <tbody>
               <tr>
                 <td>Creator</td> <!-- property -->
-                <td>dc:creator</td> <!-- DCTerms -->
+                <td>dcterms:creator</td> <!-- DCTerms -->
                 <td>&lt;artist&gt;&lt;name&gt;</td> <!-- MMD -->
                 <td>Creator</td> <!-- SOMA -->
                 <td>100 1#$a</td> <!-- MARC21 -->
@@ -929,7 +929,7 @@
 
               <tr>
                 <td>Publisher</td> <!-- property -->
-                <td>dc:publisher</td> <!-- DCTerms -->
+                <td>dcterms:publisher</td> <!-- DCTerms -->
                 <td> </td> <!-- MMD -->
                 <td> </td> <!-- SOMA -->
                 <td> </td> <!-- MARC21 -->
@@ -940,7 +940,18 @@
 
               <tr>
                 <td>Contributor</td> <!-- property -->
-                <td>dc:contributor</td> <!-- DCTerms -->
+                <td>dcterms:contributor</td> <!-- DCTerms -->
+                <td> </td> <!-- MMD -->
+                <td> </td> <!-- SOMA -->
+                <td> </td> <!-- MARC21 -->
+                <td> </td> <!-- MODS -->
+                <td> </td> <!-- CDWA -->
+                <td> </td> <!-- OAI -->
+              </tr>
+
+              <tr>
+                <td>Institution</td> <!-- property -->
+                <td>dcterms:rightsHolder</td> <!-- DCTerms -->
                 <td> </td> <!-- MMD -->
                 <td> </td> <!-- SOMA -->
                 <td> </td> <!-- MARC21 -->
@@ -976,8 +987,8 @@
 
             <tbody>
               <tr>
-                <td> </td> <!-- property -->
-                <td> </td> <!-- DCTerms -->
+                <td>Place of production</td> <!-- property -->
+                <td>dcterms:coverage.spatial</td> <!-- DCTerms -->
                 <td> </td> <!-- MMD -->
                 <td> </td> <!-- SOMA -->
                 <td> </td> <!-- MARC21 -->
@@ -987,8 +998,8 @@
               </tr>
 
               <tr>
-                <td> </td> <!-- property -->
-                <td> </td> <!-- DCTerms -->
+                <td>Place of publication</td> <!-- property -->
+                <td>dcterms:coverage.spatial</td> <!-- DCTerms -->
                 <td> </td> <!-- MMD -->
                 <td> </td> <!-- SOMA -->
                 <td> </td> <!-- MARC21 -->
@@ -998,8 +1009,19 @@
               </tr>
 
               <tr>
-                <td> </td> <!-- property -->
-                <td> </td> <!-- DCTerms -->
+                <td>Current place</td> <!-- property -->
+                <td>dcterms:LocationPeriodOrJurisdiction.location</td> <!-- DCTerms -->
+                <td> </td> <!-- MMD -->
+                <td> </td> <!-- SOMA -->
+                <td> </td> <!-- MARC21 -->
+                <td> </td> <!-- MODS -->
+                <td> </td> <!-- CDWA -->
+                <td> </td> <!-- OAI -->
+              </tr>
+
+              <tr>
+                <td>Contained in</td> <!-- property -->
+                <td>dcterms:relation.isPartOf</td> <!-- DCTerms -->
                 <td> </td> <!-- MMD -->
                 <td> </td> <!-- SOMA -->
                 <td> </td> <!-- MARC21 -->
