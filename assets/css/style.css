@@ -729,10 +729,9 @@ section {
 }
 
 .services .box-text {
-  background-color: #fff;
-  background-position: bottom;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  padding: 2px 16px;
+  background-color: white;
+  height: 50px;
 
 }
 
