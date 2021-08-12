@@ -919,18 +919,26 @@
             <!-- <ul id="portfolio-flters"> -->
             <ul class="nav nav-tabs" id="alignmentTab" role="tablist">
               <!-- <li class="filter-active"> -->
-              <li class="nav-item" role="presentation"><a href="#tab-1">who</a></li> <!-- data-filter="*" -->
-              <li class="nav-item" role="presentation"><a href="#tab-2">where</a></li> <!-- data-filter=".filter-app" -->
-              <li class="nav-item" role="presentation"><a href="#tab-3">when</a></li> <!-- data-filter=".filter-card" -->
-              <li class="nav-item" role="presentation"><a href="#tab-4">what</a></li> <!-- data-filter=".filter-web" -->
+              <li class="nav-item" role="presentation"> <!-- <a href="#tab-1">who</a></li>  data-filter="*" -->
+                <button class="nav-link active" id="who-tab" data-bs-toggle="tab" data-bs-target="#tab-1" type="button" role="tab" aria-controls="tab-1" aria-selected="true">Who</button>
+              </li>
+              <li class="nav-item" role="presentation"> <!-- <a href="#tab-2">where</a></li> data-filter=".filter-app" -->
+                <button class="nav-link" id="where-tab" data-bs-toggle="tab" data-bs-target="#tab-2" type="button" role="tab" aria-controls="tab-2" aria-selected="false">Where</button>
+              </li>
+              <li class="nav-item" role="presentation"> <!-- <a href="#tab-3">when</a></li>  data-filter=".filter-card" -->
+                <button class="nav-link" id="when-tab" data-bs-toggle="tab" data-bs-target="#tab-3" type="button" role="tab" aria-controls="tab-3" aria-selected="false">Contact</button>
+              </li>
+              <li class="nav-item" role="presentation"> <!-- <a href="#tab-4">what</a></li> data-filter=".filter-web" -->
+                <button class="nav-link" id="what-tab" data-bs-toggle="tab" data-bs-target="#tab-4" type="button" role="tab" aria-controls="tab-4" aria-selected="false">Contact</button>
+              </li>
             </ul>
           </div>
         </div>
-        
 
-        <div class="tab-content" id="myTabContent">
 
-          <div class="tab-pane show active" id="tab-1" role="tabpanel"> <!-- WHO -->
+        <div class="tab-content" id="alignmentTabContent">
+
+          <div class="tab-pane show active" id="tab-1" role="tabpanel" aria-labelledby="who-tab"> <!-- WHO -->
             <div id="tableWHO">
               <h2>WHO</h2>
 
@@ -1003,7 +1011,7 @@
           </div>
 
 
-          <div class="tab-pane show active" id="tab-2" role="tabpanel"> <!-- WHERE -->
+          <div class="tab-pane show active" id="tab-2" role="tabpanel" aria-labelledby="where-tab"> <!-- WHERE -->
             <div id="tableWHERE">
               <h2>WHERE</h2>
 
@@ -1076,7 +1084,7 @@
           </div>
 
 
-          <div class="tab-pane show active" id="tab-3" role="tabpanel"> <!-- WHEN -->
+          <div class="tab-pane show active" id="tab-3" role="tabpanel" aria-labelledby="when-tab"> <!-- WHEN -->
             <div id="tableWHEN">
               <h2>WHEN</h2>
 
@@ -1125,7 +1133,7 @@
           </div>
 
 
-          <div class="tab-pane show active" id="tab-4" role="tabpanel"> <!-- WHAT -->
+          <div class="tab-pane show active" id="tab-4" role="tabpanel" aria-labelledby="what-tab"> <!-- WHAT -->
             <div id="tableWHAT">
               <h2>WHAT</h2>
 
