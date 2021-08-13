@@ -962,7 +962,7 @@
                       <th>Creator</th> <!-- property -->
                       <td>creator</td> <!-- DCTerms -->
                       <td>&lt;artist&gt;&lt;name&gt;</td> <!-- MMD -->
-                      <td>creator<br/>author<br/>director</td> <!-- Schema.org -->
+                      <td>CreativeWork.creator<br/>CreativeWork.author<br/>Movie.director</td> <!-- Schema.org -->
                       <td>100 1#$a</td> <!-- MARC21 -->
                       <td>&lt;name&gt;&lt;namePart&gt;</td> <!-- MODS -->
                       <td>Creator Description</td> <!-- CDWA -->
@@ -973,7 +973,7 @@
                       <th>Publisher</th> <!-- property -->
                       <td>publisher</td> <!-- DCTerms -->
                       <td>&lt;label&gt;</td> <!-- MMD -->
-                      <td>publisher</td> <!-- Schema.org -->
+                      <td>CreativeWork.publisher</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -984,7 +984,7 @@
                       <th>Contributor</th> <!-- property -->
                       <td>contributor</td> <!-- DCTerms -->
                       <td>&lt;name&gt;&lt;namePart&gt;</td> <!-- MMD -->
-                      <td>contributor<br/>Contributor.Role</td> <!-- Schema.org -->
+                      <td>CreativeWork.contributor<br/>CreativeWork.Contributor.Role</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -995,7 +995,7 @@
                       <th>Institution</th> <!-- property -->
                       <td>rightsHolder</td> <!-- DCTerms -->
                       <td>N/A</td> <!-- MMD -->
-                      <td>archivedAt</td> <!-- Schema.org -->
+                      <td>CreativeWork.archivedAt</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1035,7 +1035,7 @@
                       <th>Place of production</th> <!-- property -->
                       <td>coverage.spatial</td> <!-- DCTerms -->
                       <td>&lt;place-list&gt;&lt;place-element&gt;&lt;place&gt;</td> <!-- MMD -->
-                      <td>locationCreated<br/>countryOfOrigin</td> <!-- Schema.org -->
+                      <td>CreativeWork.locationCreated<br/>Movie.countryOfOrigin</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1068,7 +1068,7 @@
                       <th>Contained in</th> <!-- property -->
                       <td>relation.isPartOf</td> <!-- DCTerms -->
                       <td>&lt;release&gt;</td> <!-- MMD -->
-                      <td>isPartOf</td> <!-- Schema.org -->
+                      <td>CreativeWork.isPartOf</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1077,9 +1077,9 @@
 
                     <tr>
                       <th>Place depicted</th> <!-- property -->
-                      <td> </td> <!-- DCTerms -->
-                      <td> </td> <!-- MMD -->
-                      <td>contentLocation</td> <!-- Schema.org -->
+                      <td>coverage.spatial</td> <!-- DCTerms -->
+                      <td>N/A</td> <!-- MMD -->
+                      <td>CreativeWork.contentLocation</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1119,7 +1119,7 @@
                       <td>Creation date</td> <!-- property -->
                       <td>date.created</td> <!-- DCTerms -->
                       <td> </td> <!-- MMD -->
-                      <td>dateCreated</td> <!-- Schema.org -->
+                      <td>CreativeWork.dateCreated</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1130,7 +1130,7 @@
                       <td>Publishing date</td> <!-- property -->
                       <td>date.issued</td> <!-- DCTerms -->
                       <td>&lt;release&gt;&lt;date&gt;</td> <!-- MMD -->
-                      <td>datePublished</td> <!-- Schema.org -->
+                      <td>CreativeWork.datePublished</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1168,7 +1168,7 @@
                       <td>Title</td> <!-- property -->
                       <td>title</td> <!-- DCTerms -->
                       <td>&lt;release&gt;&lt;title&gt;</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>Thing.name</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1179,7 +1179,7 @@
                       <td>Description</td> <!-- property -->
                       <td>description</td> <!-- DCTerms -->
                       <td>N/A</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>Thing.description</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1190,7 +1190,7 @@
                       <td>Subject</td> <!-- property -->
                       <td>subject</td> <!-- DCTerms -->
                       <td>N/A</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>CreativeWork.about</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1201,7 +1201,7 @@
                       <td>Language</td> <!-- property -->
                       <td>language</td> <!-- DCTerms -->
                       <td>&lt;work&gt;&lt;language-list&gt;&lt;language&gt;<br/>&lt;text-representation language&gt;</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>CreativeWork.inLanguage<br/>Movie.subtitleLanguage</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1212,7 +1212,7 @@
                       <td>Material support</td> <!-- property -->
                       <td>medium</td> <!-- DCTerms -->
                       <td>N/A</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>CreativeWork.material</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1223,7 +1223,7 @@
                       <td>Dimensions</td> <!-- property -->
                       <td>format</td> <!-- DCTerms -->
                       <td>N/A</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>CreativeWork.size</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1234,7 +1234,7 @@
                       <td>Type / Technique</td> <!-- property -->
                       <td>type</td> <!-- DCTerms -->
                       <td>&lt;genre-list&gt;&lt;genre&gt;</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>CreativeWork.genre</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1245,7 +1245,7 @@
                       <td>Duration</td> <!-- property -->
                       <td>MediaTypeOrExtent.duration</td> <!-- DCTerms -->
                       <td>&lt;duration&gt;</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>Movie.duration<br/>MediaObject.duration<br/>MusicRelease.duration</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
