@@ -1606,3 +1606,15 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+/* Diego: scritta di colore nero e grassetto su intestazioni tab */
+.nav-tabs .nav-link{
+  color: #000;
+  font-weight: 700;
+}
+
+/* Diego: scritta di colore rosso su tab attivo */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #EB0303;
+}
