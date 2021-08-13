@@ -62,7 +62,7 @@
           <ul>
               <li><a href="#">E/R Model</a></li>
               <li><a href="#metadataAnalysis">Metadata Analysis</a></li>
-              <li><a href="#metadataAlignment">Metada Alignment</a></li>
+              <li><a href="#metadataAlignment">Metadata Alignment</a></li>
               <li><a href="#">Theoretical Model</a></li>
               <li><a href="#">Conceptual Model</a></li>
             </ul>
@@ -1032,10 +1032,10 @@
 
                   <tbody>
                     <tr>
-                      <td>Place of production</td> <!-- property -->
+                      <th>Place of production</th> <!-- property -->
                       <td>dcterms:coverage.spatial</td> <!-- DCTerms -->
                       <td>&lt;place-list&gt;&lt;place-element&gt;&lt;place&gt;</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>locationCreated<br/>countryOfOrigin</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1043,10 +1043,10 @@
                     </tr>
 
                     <tr>
-                      <td>Place of publication</td> <!-- property -->
+                      <th>Place of publication</th> <!-- property -->
                       <td>dcterms:coverage.spatial</td> <!-- DCTerms -->
                       <td>N/A</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>PublicationEvent.location</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1054,10 +1054,10 @@
                     </tr>
 
                     <tr>
-                      <td>Current place</td> <!-- property -->
+                      <th>Current place</th> <!-- property -->
                       <td>dcterms:LocationPeriodOrJurisdiction.location</td> <!-- DCTerms -->
                       <td>N/A</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>Place</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
@@ -1065,10 +1065,21 @@
                     </tr>
 
                     <tr>
-                      <td>Contained in</td> <!-- property -->
+                      <th>Contained in</th> <!-- property -->
                       <td>dcterms:relation.isPartOf</td> <!-- DCTerms -->
                       <td>&lt;release&gt;</td> <!-- MMD -->
-                      <td> </td> <!-- Schema.org -->
+                      <td>isPartOf</td> <!-- Schema.org -->
+                      <td> </td> <!-- MARC21 -->
+                      <td> </td> <!-- MODS -->
+                      <td> </td> <!-- CDWA -->
+                      <td> </td> <!-- OAI -->
+                    </tr>
+
+                    <tr>
+                      <th>Place depicted</th> <!-- property -->
+                      <td> </td> <!-- DCTerms -->
+                      <td> </td> <!-- MMD -->
+                      <td>contentLocation</td> <!-- Schema.org -->
                       <td> </td> <!-- MARC21 -->
                       <td> </td> <!-- MODS -->
                       <td> </td> <!-- CDWA -->
