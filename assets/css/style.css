@@ -1624,5 +1624,5 @@ section {
 .separatorOne {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lucifer/60-prisoner.lineup.jpg") fixed center center;
   background-size: cover;
-  padding: 60px 0;
+  padding: 100px 0;
 }
