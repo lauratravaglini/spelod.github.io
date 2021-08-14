@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -1617,4 +1617,12 @@ section {
 /* Diego: scritta di colore rosso su tab attivo */
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
   color: #EB0303;
+}
+
+
+/* Diego: separatore con effetto immagine in background */
+.separatorOne {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lucifer/60-prisoner.lineup.jpg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
 }
