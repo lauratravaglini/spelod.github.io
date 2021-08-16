@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h6 {
   font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Special Elite', cursive;
   color: #eb0303;
   text-align: center;
 }
