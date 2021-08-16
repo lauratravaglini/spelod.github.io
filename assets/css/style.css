@@ -548,8 +548,8 @@ section {
 }
 
 .card-img-top {
-  object-fit: cover;
-  width: 50px;
+  object-fit: none;
+  width: 100px;
   height: 100px;
 }
 
