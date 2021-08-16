@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Special Elite', cursive;
 }
 
-h6 {
+h5 {
   font-family: 'Special Elite', cursive;
   text-align: center;
 }
@@ -39,7 +39,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Back to top button
+# Back to top button + card button
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -73,6 +73,7 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+
 
 /*--------------------------------------------------------------
 # Preloader
