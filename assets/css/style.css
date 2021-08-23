@@ -1648,17 +1648,17 @@ section {
 .separatorOne {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lucifer/screen.jp2") fixed center center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 .separatorTwo {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lucifer/60-prisoner.lineup.jpg") fixed center center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 200px 0;
 }
 
 .separatorThree {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lucifer/61-spe.prisoners.guard.jpg") fixed center center;
   background-size: cover;
-  padding: 100px 0;
+  padding: 200px 0;
 }
