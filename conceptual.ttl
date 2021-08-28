@@ -1,0 +1,55 @@
+@base	<http://lauratravaglini.github.io/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix schema: <https://schema.org/> .
+@prefix dbp: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<StanfordPrisonExperiment> a <schema:Event>;
+	<dcterms:title> "The Stanford Prison Experiment" ;
+	<crm:P4_has_time-span> <SPETimeSpan> .
+
+# Definition of the timespan of the event	
+<SPEBeginning> a <crm:E62_String> ;
+			<rdf:value> "14/08/1971" .
+			
+<SPEEnd> a <crm:E62_String> ;
+			<rdf:value> "20/08/1971" .
+			
+	
+<SPETimeSpan> a <crm:E52_Time-Span> ;
+	<crm:P79_beginning_is_qualified_by> <SPEBeginning> ;
+	<crm:P80_end_is_qualified_by> <SPEEnd> .
+
+
+
+<TheLuciferEffect> a <schema:Book>;
+	<dcterms:title> "The Lucifer Effect" ;
+	<dcterms:subject> <StanfordPrisonExperiment> .
+# <schema:author> <Philip_Zimbardo> ;	
+
+<TheLuciferEffect_Creation> a <crm:E65_Creation> ;
+	<crm:P94_Has_Created> <TheLuciferEffect> ;
+	<dcterms:creator> <Philip_Zimbardo> .
+
+
+
+<Philip_Zimbardo> a <foaf:Person>;
+	<foaf:givenName> "Philip" ;
+	<foaf:familyName> "Zimbardo" ;
+	<owl:sameAs> <dbp:Philip_Zimbardo> ;
+	<crm:P94_Has_Created> <TheLuciferEffect> .
+	
+<ForeverJung> a <mo:Composition>.
+
+<Caparezza> a <foaf:Person>.
+
+<ForeverJung_Creation> a <crm:E65_Creation> ;
+	<crm:P94_Has_Created> <ForeverJung> ;
+	<dcterms:creator> <Caparezza> .
+
+
+	
+<QuietRage> a <schema:MediaObject> ;
+	<dcterms:contributor> <Philip_Zimbardo> ;
+	<dcterms:subject> <StanfordPrisonExperiment> .
