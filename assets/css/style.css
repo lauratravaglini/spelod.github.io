@@ -1646,7 +1646,7 @@ section {
 
 /* Diego: separatori con effetto immagine in background */
 .separatorOne {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lucifer/screen.jp2") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/lucifer/screen.jpg") fixed center center;
   background-size: cover;
   padding: 200px 0;
 }
